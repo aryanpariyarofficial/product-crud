@@ -1,0 +1,31 @@
+ /* Style for the card container */
+ .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+}
+
+/* Style for the product image */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for the product name */
+.card .product-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Style for the product description */
+.card .product-description {
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: center;align-items: center;
+}
