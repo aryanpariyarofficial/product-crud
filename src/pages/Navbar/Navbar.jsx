@@ -3,8 +3,8 @@ import "./Navbar.css"
 const Navbar = () => {
   return (
     <> <div className="navbar">
-    <a className="logo" href="#">Your Brand</a>
-    <a href="#">Home</a>
+    <a className="logo" href='/'>Your Brand</a>
+    <a href="/">Home</a>
     <a href="#">Products</a>
     <div className="dropdown">
         <button className="dropbtn">Services 
@@ -16,7 +16,7 @@ const Navbar = () => {
             <a href="#">Service 3</a>
         </div>
     </div>
-    <a href="#">About Us</a>
+    <a href="/add-product">Add Blog</a>
     <a href="#">Contact</a>
 </div>
 </>

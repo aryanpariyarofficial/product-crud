@@ -13,7 +13,7 @@ const Home = () => {
         fetchProduct();
     }, []);
     return (
-        <><div className="flex">
+        <div className="flex">
             {
                 products.map((product) => {
                     return (
@@ -31,7 +31,7 @@ const Home = () => {
             }
              </div>
 
-        </>
+
     )
 }
 

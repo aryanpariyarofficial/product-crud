@@ -1,0 +1,6 @@
+DAy 7: 
+CRUD (Create, Read, Update, Delete);
+
+
+Create: 3 - approach
+Read: all the data or paticular
