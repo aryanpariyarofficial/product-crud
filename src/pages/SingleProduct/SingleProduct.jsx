@@ -41,7 +41,7 @@ fetchSingleProduct();
       <div className="product-description">{product.productDescription}</div>
       <mark className="product-description">{product.productMaterial}</mark><br />
       <button onClick={deleteProduct}>Delete</button>
-      {/* <button onClick={()=>navigate(`/single-product/${product.id}`)}>Update</button> */}
+      <button onClick={()=>navigate(`/update-product/${product.id}`)}>Update</button>
     </div>
   ) 
 }

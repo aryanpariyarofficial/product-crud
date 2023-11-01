@@ -29,7 +29,7 @@ const Home = () => {
                                 <div className="product-description">
                                 {product.productMaterial}
                                 </div>
-                                <button onClick={()=>navigate(`/single-product/${product.id}`)}>See More</button>
+                                <a onClick={()=>navigate(`/single-product/${product.id}`)}>See More</a>
                                 
                             </div>
                        

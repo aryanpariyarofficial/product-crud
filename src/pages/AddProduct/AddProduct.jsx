@@ -52,7 +52,6 @@ const AddProduct = () => {
     const submitHandler = async (e) =>{
         e.preventDefault();
         const response = await axios.post("https://652fbacf6c756603295d8ee6.mockapi.io/products", data)
-        console.log(response);
         navigate('/');
     }
   return (
