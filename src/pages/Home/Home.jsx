@@ -9,7 +9,6 @@ const Home = () => {
     const [products, setProducts] = useState([]);
     const fetchProduct = async () => {
         const response = await axios.get("https://652fbacf6c756603295d8ee6.mockapi.io/products");
-        console.log(response);
         setProducts(response.data)
     }
     useEffect(() => {
