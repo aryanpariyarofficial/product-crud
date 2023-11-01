@@ -26,7 +26,11 @@ const Home = () => {
                                 <div className="product-description">
                                 {product.productDescription}
                                 </div>
-                                <button onClick={()=>navigate(`/singleProduct/${product.id}`)}>See More</button>
+                                <div className="product-description">
+                                {product.productMaterial}
+                                </div>
+                                <button onClick={()=>navigate(`/single-product/${product.id}`)}>See More</button>
+                                
                             </div>
                        
                     )
